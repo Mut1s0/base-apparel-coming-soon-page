@@ -1,7 +1,17 @@
+import { logo } from "../assets";
 
 function Header() {
     return(
-        <h1>Header</h1>
+
+        <header>
+
+            <div className="max-w-[90%] mx-auto py-[70px]">
+
+                <img src={logo} alt="logo" className="w-[170px]"/>
+
+            </div>
+
+        </header>
     )
 }
 
