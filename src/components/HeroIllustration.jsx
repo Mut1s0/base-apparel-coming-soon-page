@@ -4,15 +4,15 @@ function HeroIllustration() {
 
     return(
 
-        <article>
+        <article className="h-full">
 
-            <div>
+            <div className="h-full">
 
-                <picture>
+                <picture className="">
 
                     <source media="(min-width: 1024px)" srcSet={heroDesktop} />
 
-                    <img src={heroMobile} alt="Hero Illustration" className="w-full"/>
+                    <img src={heroMobile} alt="Hero Illustration" className="w-full h-full"/>
 
                 </picture>
 
