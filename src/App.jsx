@@ -7,7 +7,7 @@ function App() {
 
     <main>
 
-      <div className="font-josefinSans md:grid md:grid-cols-5 md:grid-rows-3 h-screen">
+      <div className="font-josefinSans md:grid md:grid-cols-6 md:grid-rows-3 h-screen">
 
         <section className="md:col-start-1 md:col-span-3 md:row-end-1">
 
@@ -15,7 +15,7 @@ function App() {
 
         </section>
 
-        <section className="md:col-span-2 md:col-end-6 md:row-span-4">
+        <section className="md:col-span-3 md:col-end-7 md:row-span-4">
 
           <HeroIllustration/>
 
